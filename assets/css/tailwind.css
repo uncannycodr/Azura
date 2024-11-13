@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --navy: #00173C;
+  --aria: #E3E3E3;
+  --faded-denim: #7686A0;
+  --chef-hat: #F3F4F6;
+  --blue-horizon: #576A8A;
+  --white: #FFFFFF;
+  --anakiwa:#def1ff;
+  --dodger-blue:#3B81F4;
+  --orochimaru: #D9D9D9;
+  --sambucus: #101828;
+}
+.font-xs {
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem); /* 12px - 14px */
+}
+.font-sm {
+  font-size: clamp(1rem, 2vw, 1.75rem); /* 16px - 28px */
+}
+.font-base {
+  font-size: clamp(1.125rem, 2vw, 1.75rem); /* 18px - 28px */
+}
+.font-lg {
+  font-size: clamp(1.125rem, 4vw, 3.625rem); /* 18px - 58px */
+}
+
+.font-xl {
+  font-size: clamp(2.25rem, 4vw, 3rem); /* 36px - 48px */
+}
+.font-2xl {
+  font-size: clamp(3rem, 4vw, 4rem); /* 48px - 64px */
+}
+.font-3xl {
+  font-size: clamp(3rem, 4vw, 4.5rem); /* 48px - 72px */
+}
